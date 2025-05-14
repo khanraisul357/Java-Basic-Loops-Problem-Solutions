@@ -1,0 +1,10 @@
+	int X[]={11,3,8,5,2,17};
+	int size=X.length;
+	int max=X[0];
+	
+	for(int i=1;i<size;i++) {
+		if(X[i]>max) {
+			max=X[i];
+		}
+	}
+	System.out.println("Maximum= "+max);
