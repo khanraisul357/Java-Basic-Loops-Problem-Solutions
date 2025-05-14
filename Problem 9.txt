@@ -1,0 +1,19 @@
+public class Basic{
+	
+	public static void main(String args[]) {
+	
+	int X[]={11,3,8,5,2,17};
+	int size=X.length;
+	int min=X[0];
+	
+	for(int i=1;i<size;i++) {
+		if(X[i]<min) {
+		   min=X[i];
+		}
+	}
+	System.out.println("Minimum= "+min);
+	
+
+	}
+	
+}	
