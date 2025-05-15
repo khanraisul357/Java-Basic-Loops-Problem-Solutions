@@ -1,0 +1,19 @@
+public class Basic{
+	
+	public static void main(String args[]) {
+	     String name="RaIsUL islAm KhaN Farzana";
+	     int count=0;
+	     	
+	     int i=0;  
+	     while(i<name.length()) {
+	    	 if(name.charAt(i)=='A'||name.charAt(i)=='E'||name.charAt(i)=='I'||name.charAt(i)=='O'||name.charAt(i)=='U') {
+	    		 count++;
+		     }
+		     else if(name.charAt(i)=='a'||name.charAt(i)=='e'||name.charAt(i)=='i'||name.charAt(i)=='o'||name.charAt(i)=='u') {
+		    	 count++;
+		     }
+	    	 i++;
+         }
+	     System.out.println(count);
+	}    
+}	
